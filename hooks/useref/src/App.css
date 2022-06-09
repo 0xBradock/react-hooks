@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.tilt-root {
+  height: 450px;
+  background-color: red;
+  width: 600px;
+  background-image: -webkit-linear-gradient(315deg, #ff00ba 0%, #1392fa 100%);
+  background-image: linear-gradient(135deg, #ff00ba 0%, #1ffa13 100%);
+  transform-style: preserve-3d;
+  will-change: transform;
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+
+.totally-centered {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
