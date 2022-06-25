@@ -1,50 +1,59 @@
 # React Hooks 🪝
 
-> [Hooking]: Un **lien de rappel HTTP** ou **point d'ancrage Web**(**webhook** ), est en programmation une méthode permettant d'accroître ou de modifier le comportement d'une page ou application avec des fonctions de rappels personnalisées. [Wikipedia](https://fr.wikipedia.org/wiki/Webhook)
+> [Hooking]: A **hook**, in programming is a method that modifies an application's behaviour using callback functions. [Wikipedia](https://fr.wikipedia.org/wiki/Webhook)
 
-Différents bibliothèques dans la programmation utilisent des hooks pour changer le comportement d'une application.
+There are many kinds of hooks in programming in many different contexts.
 
-Avant [v16.8 (06/02/2019)](https://github.com/facebook/react/releases/tag/v16.8.0) les composants React pouvaient être créés avec des classes ou des fonctions. Le besoin de gérer le cycle de vie d'un composant React demandait l'utilisation des composants en classe, par contre le code n'était pas si clair ni concis comme pour les composants en fonction. L'introduction des **Hooks** dans la `v16.8` a permis le complet remplacement des composant en classe par des composants en fonction, ce qui rend le code plus lisible, plus concis et évite le besoin de convertir les composant de classe à fonction (ou l'inverse) en cas de refactoring. Des **Hooks** ont été introduits aussi pour améliorer la performance des applications et ont été aussi adoptés par les créateurs de bibliothèques.
+In React, before version [v16.8 (06/02/2019)](https://github.com/facebook/react/releases/tag/v16.8.0) components were created using classes or functions.
+Classes components were mandatory when there was any kind of lifecycle or state management.
+Nonetheless, class components are verbose and not very straightfoward to convert to and from function components in case of a refactoring.
+The introduction of **Hooks**, in version `v16.8` allowed the complete remplacement of class based components to function based components.
+The React team created some **hooks** to manage lifecycle components and many libraries introduced them in order to interact with the library.
 
-Ce dépôt a pour objectif d'introduire les différents Hooks de la bibliothèque [React](https://reactjs.org/docs/hooks-intro.html) :
+This repo contains information on a few of the them.
 
-- Pour la gestion du cycle de vie d'un composant
-- Pour l'amélioration de la performance d'une application
+## Contents
 
-## Contenu
+### Presentation
 
-L'ensemble de resources disponibles lors du dérroulement de la formation.
+[Reveal.js](https://revealjs.com/) was used to create a presentation.
 
-### Diaporamas
+To launch the presentation:
 
-Pour lancer les diapos:
-
-0. S'assurer que [npm](https://nodejs.org/en/download/) est installé, avec `node --version` qui retourne une valeur
-1. Exécuter les commandes suivantes
+0. Make sure [npm](https://nodejs.org/en/download/) is isntalled, by running `npm --version` on your terminal.
+1. Execute the following commands
 
 ```sh
+# Launch presentation
+
 cd reveal.js
 npm install
 npm start
 ```
 
-2. En suite ouvrir [la presentation](http://localhost:8000/) dans `localhost:8000`.
+2. Next, open [the presentation](http://localhost:8000/) in `localhost:8000`.
 
 ### Examples
 
-Quelques examples de l'utilisation des Hooks se trouvent dans le dossier `/hooks`.
-Chaque dossier est une application React complète, donc pour la lancer :
+A few examples can ba found in the folder `/hooks`.
+Each folder is an entire React application.
+If you wish to launch it:
 
-0. S'assurer que [npm](https://nodejs.org/en/download/) est installé, avec `node --version` qui retourne une valeur
-
-1. Exécuter les commandes suivantes
+0. Make sure [npm](https://nodejs.org/en/download/) is installed.
+1. Execute the following commands
 
 ```sh
+# Launch React applications
+
 cd hooks/<hook>
 npm install
 npm start
 ```
 
-2. En suite ouvrir [l'application](http://localhost:8000/) dans `localhost:3000`.
+2. Next, you can open the application on `localhost:3000`.
 
-Chaque **Hook** implémente une fonctionnalité distancte qui peut être aperçu dans le code, dans le navigateur ou dans la console du navigateur.
+Each **hook** implements a different fonctionality that can be observed in code, browser or in the console.
+
+## Contributions
+
+Any suggestions, corrections and questions are more than welcome in the issues tab.
