@@ -20,8 +20,8 @@ This repo contains information on a few of the them.
 
 To launch the presentation:
 
-0. Make sure [npm](https://nodejs.org/en/download/) is isntalled, by running `npm --version` on your terminal.
-1. Execute the following commands
+1. Make sure [npm](https://nodejs.org/en/download/) is isntalled, by running `npm --version` on your terminal.
+2. Execute the following commands
 
 ```sh
 # Launch presentation
@@ -39,8 +39,8 @@ A few examples can ba found in the folder `/hooks`.
 Each folder is an entire React application.
 If you wish to launch it:
 
-0. Make sure [npm](https://nodejs.org/en/download/) is installed.
-1. Execute the following commands
+1. Make sure [npm](https://nodejs.org/en/download/) is installed.
+2. Execute the following commands
 
 ```sh
 # Launch React applications
@@ -50,7 +50,7 @@ npm install
 npm start
 ```
 
-2. Next, you can open the application on `localhost:3000`.
+3. Next, you can open the application on `localhost:3000`.
 
 Each **hook** implements a different fonctionality that can be observed in code, browser or in the console.
 
